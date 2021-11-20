@@ -13,13 +13,13 @@
 @font-face {
   font-family:Technology ;
     src: url('../fonts/Technology.ttf');
-  src: local("Technology"), url('../fonts/Technology Bold.ttf');
+  src: local("Technology"), url('../fonts/Technology.ttf');
 }
 
 
 
 #title
-   {  font-family:'Lettres',pixtech,Arial;
+   {  font-family:'pixtech',pixtech,Arial;
       position: absolute;
    	font-size: 2vw;
    	color:grey;
@@ -31,4 +31,20 @@
 
 body {
   background-color: black;
+}
+
+#button{
+  position: absolute;
+  top: 45vw;
+  left: 20vw;
+  z-index: 3;
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+  color: blue;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
 }

@@ -1,0 +1,168 @@
+@font-face {
+  font-family:robot ;
+    src: url('../fonts/RobotReavers-044d.ttf');
+  src: local("Lettres"), url('../fonts/RobotReavers-044d.ttf');
+}
+
+@font-face {
+  font-family:pixtech ;
+    src: url('../fonts/pixtech.ttf');
+  src: local("pixtech"), url('../fonts/pixtech2.ttf');
+}
+
+@font-face {
+  font-family:Technology ;
+    src: url('../fonts/Technology.ttf');
+  src: local("Technology"), url('../fonts/Technology.ttf');
+}
+
+
+@font-face {
+  font-family:Ai ;
+    src: url('../fonts/ai.ttf');
+  src: local("Technology"), url('../fonts/ai.ttf');
+}
+
+@font-face {
+  font-family:Ad ;
+    src: url('../fonts/Assassin1.ttf');
+  src: local("Technology"), url('../fonts/Assassin2.ttf');
+}
+#title
+   {  font-family:'pixtech',Arial;
+      position: absolute;
+   	font-size: 2vw;
+   	color:grey;
+    top: 20px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+   }
+#finaltext
+   {  font-family:'Technology',Arial;
+      position: absolute;
+   	font-size: 1.5vw;
+   	color:grey;
+    top: 150px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+   }
+#font1
+   { 
+      position: absolute;
+    top: 20%;
+    left: 15%;
+ 
+    z-index: 2;
+   }
+#font2
+   { 
+      position: absolute;
+    top: 45%;
+    right: 15%;
+ 
+    z-index: 2;
+   }
+#font3
+   { 
+      position: absolute;
+    top: 35%;
+    right: 35%;
+ 
+    z-index: 2;
+   }
+#poem1
+   {  font-family:'robot',pixtech,Arial;
+      position: absolute;
+   	font-size: 1vw;
+   	color:grey;
+    top: 100px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+    display:none;
+   }
+
+#poem2
+   {  font-family:'Technology',pixtech,Arial;
+      position: absolute;
+   	font-size: 1.5vw;
+   	color:grey;
+    top: 100px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+    display:none;
+   }
+#poem3
+   {  font-family:'Ad',pixtech,Arial;
+      position: absolute;
+   	font-size: 1.5vw;
+   	color:grey;
+    top: 100px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+    display:none;
+   }
+#lyrics
+   {  font-family:'ai',pixtech,Arial;
+      position: absolute;
+   	font-size: 1vw;
+   	color:grey;
+    top: 100px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+    display:none;
+   }
+body {
+  background-color: black;
+}
+
+#button{
+  position: absolute;
+  top: 60%;
+  left: 20vw;
+  z-index: 3;
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+  color: blue;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+#buttonAI{
+  position: absolute;
+  top: 35vw;
+  left: 50vw;
+  z-index: 3;
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+  color: blue;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 12px;
+}
+#buttonHuman{
+  position: absolute;
+  top: 35vw;
+  left: 60vw;
+  z-index: 3;
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+  color: blue;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 12px;
+}
