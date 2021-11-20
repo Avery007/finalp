@@ -1,0 +1,34 @@
+@font-face {
+  font-family:robot ;
+    src: url('../fonts/RobotReavers-044d.ttf');
+  src: local("Lettres"), url('../fonts/RobotReavers-044d.ttf');
+}
+
+@font-face {
+  font-family:pixtech ;
+    src: url('../fonts/pixtech.ttf');
+  src: local("pixtech"), url('../fonts/pixtech2.ttf');
+}
+
+@font-face {
+  font-family:Technology ;
+    src: url('../fonts/Technology.ttf');
+  src: local("Technology"), url('../fonts/Technology Bold.ttf');
+}
+
+
+
+#title
+   {  font-family:'Lettres',pixtech,Arial;
+      position: absolute;
+   	font-size: 2vw;
+   	color:grey;
+    top: 20px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+   }
+
+body {
+  background-color: black;
+}
